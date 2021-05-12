@@ -710,7 +710,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 20,
                     ),
                     Table(
-                      defaultColumnWidth: FixedColumnWidth(300.0),
+                      defaultColumnWidth: FixedColumnWidth(250.0),
                       children: [
                         TableRow(children: [
                        buildClassicTable("S3"),
@@ -745,26 +745,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ],
                 )),
-                Center(
-                  child: Column(
-                    children: [],
-                  ),
-                ),
-                Center(
-                  child: Column(
-                    children: [],
-                  ),
-                ),
-                Center(
-                  child: Column(
-                    children: [],
-                  ),
-                ),
-                Center(
-                  child: Column(
-                    children: [],
-                  ),
-                ),
               ],
             ),
           ),
