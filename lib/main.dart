@@ -710,7 +710,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 20,
                     ),
                     Table(
-                      defaultColumnWidth: FixedColumnWidth(250.0),
+                      defaultColumnWidth: FixedColumnWidth(MediaQuery.of(context).size.width*0.5),
                       children: [
                         TableRow(children: [
                        buildClassicTable("S3"),
